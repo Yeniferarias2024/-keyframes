@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box; 
+}
+body{
+    background-color: chocolate;
+}
+.Fondogame{
+    background-image: url(/imagenes/fondogame.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    width: 80%;
+    height: 70vh;
+}
+.brujinmover{
+    position: relative;
+    top: 500px;
+    left: 600px;
+    animation:halloween 2s infinite
+}
+@keyframes halloween {
+ 8%{top:35vh; left: 10%;}
+ 5%          {top: 25px; left: 155px; rotate: 0deg;}
+    8%          {rotate: 90deg;}
+    10%         {top: 75px; left: 155px; rotate: 0deg;}
+    20%         {top: 75px; left: 563px; rotate: 0deg;}
+    22%, 25%    {rotate: 90deg;}
+    26%         {top: 115px; left: 563px; rotate: 90deg;}
+    27%, 30%    {rotate: 180deg;}
+    31%         {top: 115px; left: 525px;}
+    32%, 35%    {rotate: 90deg;}
+ 50% {top:10vh; left:80%;}
+ 
+ 
+}
+.preconnect {
+    font-family: "Hanalei", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
